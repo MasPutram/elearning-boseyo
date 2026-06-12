@@ -68,13 +68,13 @@ export default function RegisterPage() {
       
       {/* Tombol Kembali ke Dashboard */}
       <Link 
-        href="/dashboard" 
+        href="/" 
         className="absolute top-4 left-4 md:top-8 md:left-8 z-50 flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-md text-blue-700 font-bold rounded-xl shadow-lg hover:bg-white hover:scale-105 transition-all"
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg>
-        Kembali ke Dashboard
+        
       </Link>
 
       {/* Overlay transparan agar form lebih mudah dibaca dan serasi dengan Login */}
@@ -107,7 +107,7 @@ export default function RegisterPage() {
               <div className="space-y-6 animate-in fade-in duration-500">
                 <h3 className="text-xl font-semibold text-gray-800">Langkah 1: Pilih Program Belajar</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {["Bahasa Korea Dasar", "Bahasa Korea Menengah", "EPS-TOPIK Khusus", "Budaya Korea"].map((item) => (
+                  {["Korea Selatan", "Jepang"].map((item) => (
                     <label key={item} className={`flex items-center p-4 border-2 rounded-xl cursor-pointer transition-all ${formData.program === item ? 'border-blue-600 bg-blue-50' : 'border-gray-100 hover:border-blue-200'}`}>
                       <input 
                         type="radio" 

@@ -14,14 +14,13 @@ function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <h3 className="text-xl font-bold mb-3">LPK</h3>
-          <p className="text-gray-300 text-sm">Lembaga Pelatihan Kerja terpercaya untuk program magang ke Korea Selatan, Jepang, dan Taiwan. Siap mengantarkan Anda meraih mimpi kerja di luar negeri.</p>
+          <p className="text-gray-300 text-sm">Lembaga Pelatihan Kerja terpercaya untuk program magang ke Korea Selatan, dan Jepang. Siap mengantarkan Anda meraih mimpi kerja di luar negeri.</p>
         </div>
         <div>
           <h4 className="text-lg font-bold mb-3">Program Kami</h4>
           <ul className="space-y-2 text-gray-300">
             <li><a href="/korea" className="hover:text-blue-400 transition">Magang Korea Selatan</a></li>
             <li><a href="/jepang" className="hover:text-blue-400 transition">Magang Jepang</a></li>
-            <li><a href="/taiwan" className="hover:text-blue-400 transition">Magang Taiwan</a></li>
             <li><a href="/pelatihan" className="hover:text-blue-400 transition">Pelatihan Bahasa</a></li>
           </ul>
         </div>

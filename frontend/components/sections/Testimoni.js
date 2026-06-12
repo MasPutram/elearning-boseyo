@@ -11,9 +11,9 @@ function Testimoni() {
   const testimoniData = [
     {
       nama: "Ahmad Fauzi",
-      program: "Magang Korea Selatan",
+      program: "Korea Selatan",
       foto: "/images/testi1.jpg",
-      komentar: "Alhamdulillah berkat LPK ini saya bisa magang di perusahaan elektronik besar di Seoul. Prosesnya lancar!"
+      komentar: "Alhamdulillah berkat LPK ini saya bisa bekerja di perusahaan elektronik besar di Seoul. Prosesnya lancar!"
     },
     {
       nama: "Dewi Lestari",
@@ -23,9 +23,9 @@ function Testimoni() {
     },
     {
       nama: "Rizki Pratama",
-      program: "Magang Taiwan",
+      program: "Korea Selatan",
       foto: "/images/testi3.jpg",
-      komentar: "LPK ini terpercaya, semua proses transparan. Saya dapat penghasilan yang bagus di Taiwan."
+      komentar: "LPK ini terpercaya, semua proses transparan. Saya dapat penghasilan yang bagus di Korea Selatan."
     }
   ]
 

@@ -54,13 +54,13 @@ const handleLogin = async (e) => {
       
       {/* Tombol Kembali ke Dashboard */}
       <Link 
-        href="/dashboard" 
+        href="/" 
         className="absolute top-4 left-4 md:top-8 md:left-8 z-50 flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-md text-blue-700 font-bold rounded-xl shadow-lg hover:bg-white hover:scale-105 transition-all"
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg>
-        Kembali ke Dashboard
+
       </Link>
 
       {/* Kotak Form Login */}

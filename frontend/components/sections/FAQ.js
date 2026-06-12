@@ -26,7 +26,7 @@ function FAQ() {
     },
     {
       pertanyaan: "Apakah ada jaminan kerja?",
-      jawaban: "Ya, kami menjamin penempatan kerja di perusahaan mitra di Korea, Jepang, atau Taiwan sesuai program yang dipilih."
+      jawaban: "Ya, kami menjamin penempatan kerja di perusahaan mitra di Korea, dan Jepang sesuai program yang dipilih."
     }
   ]
 
